@@ -1,10 +1,13 @@
-# Very short description of the package
+# Contact Module for Adminetic Admin Panel
+
+![Adminetic Announcemment Module](https://github.com/pratiksh404/adminetic-contact/blob/main/screenshots/banner.png)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/adminetic/contact.svg?style=flat-square)](https://packagist.org/packages/adminetic/contact)
-[![Total Downloads](https://img.shields.io/packagist/dt/adminetic/contact.svg?style=flat-square)](https://packagist.org/packages/adminetic/contact)
-![GitHub Actions](https://github.com/adminetic/contact/actions/workflows/main.yml/badge.svg)
+[![Stars](https://img.shields.io/github/stars/pratiksh404/adminetic-contact)](https://github.com/pratiksh404/adminetic-contact/stargazers) [![Downloads](https://img.shields.io/packagist/dt/pratiksh/adminetic.svg?style=flat-square)](https://packagist.org/packages/pratiksh/adminetic) [![StyleCI](https://github.styleci.io/repos/373894934/shield?branch=main)](https://github.styleci.io/repos/373894934?branch=main) [![Build Status](https://scrutinizer-ci.com/g/pratiksh404/adminetic-contact/badges/build.png?b=main)](https://scrutinizer-ci.com/g/pratiksh404/adminetic-contact/build-status/main) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/pratiksh404/adminetic-contact/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/pratiksh404/adminetic-contact/?branch=main) [![CodeFactor](https://www.codefactor.io/repository/github/pratiksh404/adminetic-contact/badge)](https://www.codefactor.io/repository/github/pratiksh404/adminetic-contact) [![License](https://img.shields.io/github/license/pratiksh404/adminetic-contact)](//packagist.org/packages/pratiksh/adminetic)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+Contact module for Adminetic Admin Panel
+
+For detailed documentaion visit [Adminetic Contact Module Documentation](https://app.gitbook.com/@pratikdai404/s/adminetic/addons/contact)
 
 ## Installation
 
@@ -14,10 +17,13 @@ You can install the package via composer:
 composer require adminetic/contact
 ```
 
-## Usage
+add contact module adapter in adminetic config file app/adminetic.php
 
 ```php
-// Usage description here
+ // Adapters
+    'adapters' => [
+        Adminetic\Announcement\Adapter\ContactAdapter::class,
+    ]
 ```
 
 ### Testing
@@ -40,8 +46,8 @@ If you discover any security related issues, please email pratikdai404@gmail.com
 
 ## Credits
 
--   [Pratik Shrestha](https://github.com/adminetic)
--   [All Contributors](../../contributors)
+- [Pratik Shrestha](https://github.com/adminetic)
+- [All Contributors](../../contributors)
 
 ## License
 
@@ -50,3 +56,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 ## Laravel Package Boilerplate
 
 This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
+
+## Sreenshots
+
+![Adminetic Announcemment Module](https://github.com/pratiksh404/adminetic-contact/blob/main/screenshots/contact.png)
